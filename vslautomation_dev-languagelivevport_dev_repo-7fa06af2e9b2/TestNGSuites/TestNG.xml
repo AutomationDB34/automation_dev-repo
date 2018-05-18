@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="browser-Type" value="chrome" />
+    <classes>
+     <!-- <class name="com.testsuite.vport.E1CreateTracksAndAddAdminUsers"/> -->
+      <class name="com.testsuite.vport.OtherFunctionalitiesOfVport">
+      <methods>
+      	<include name="VPORT_15_TeacherLoginScenarios"/>
+      	<include name="VPORT_17_AssessMentPlanDummyAssessment"/>
+      	<include name="VPORT_18_VerifyAllTabsInAdministrationPage"/>
+      </methods>
+      </class>
+     <!-- <class name="com.testsuite.vport.E2CreateUserswithDistrictUser"/>
+      <class name="com.testsuite.vport.E3CreateTeachersAndStudents"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite>

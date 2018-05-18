@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+ <suite thread-count="1" verbose="1" name="VoyagerSopris Suite"	annotations="JDK">
+ 
+ <test name="Uniquegoals_IE_QA">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<packages>
+			<package name="com.testsuite.ll.uniquegoals" />
+		</packages>
+	</test>
+    	<!-- <test name="Admin_IE_QA">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<packages>
+			<package name="com.testsuite.ll.admin" />
+		</packages>
+	</test> 
+	
+<test name="Level1activites_IE_QA">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<packages>
+			<package name="com.testsuite.ll.level1activites" />
+		</packages>
+	</test> 
+
+	<test name="Level2activites_IE_QA">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<packages>
+			<package name="com.testsuite.ll.level2activities" />
+		</packages>
+	</test>   
+	
+  	 <test name="PROD_VPORT_IE">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+	 	<packages>
+			<package name="com.testsuite.vport" />
+		</packages>  
+	</test>    
+	
+		 <test name="PROD_VPORT_CHROME">
+		<parameter name="browser-Type" value="chrome" />
+		<parameter name="executionMode" value="RC" />
+	 	<packages>
+			<package name="com.testsuite.vport" />
+		</packages>  
+	</test>  -->
+	
+ <!--       	 <test name="Teacherrole_IE_PROD">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<packages>
+			<package name="com.testsuite.ll.teacherrole" />
+		</packages>
+	</test>     -->
+
+<!--  	    -->
+
+<!-- 	<test name="SmokeScenario_LL_VPORT">
+		<parameter name="browser-Type" value="iexplore" />
+		<parameter name="executionMode" value="RC" />
+		<classes>
+			<class name="com.testsuite.ll.smokeScenarios.SmokeScenarios" />
+		</classes>
+	</test> -->
+</suite>
